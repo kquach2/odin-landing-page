@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto',sans-serif;
 }
 
 .top {
@@ -42,7 +43,7 @@ a, .subtext {
 }
 .main-title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
@@ -74,12 +75,13 @@ a, .subtext {
 .info {
     display: flex;
     flex-direction: column;
+    margin-bottom: 36px;
 }
 
 .info p {
     display: flex;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 800; /* extra-bold */
     color: #1F2937;
     justify-content: center;
 }
@@ -101,6 +103,24 @@ a, .subtext {
 
 .testimonial-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300; /* light */
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.customer-name {
+    font-weight: bold;
+    width: 800px;
+    align-self: flex-end;
 }
 
 
