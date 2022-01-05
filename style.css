@@ -31,7 +31,7 @@ ul {
     gap: 16px;
 }
 
-a, #subtext {
+a, #subtext, #signup-text {
     text-decoration: none;
     color:#E5E7EB;
     font-size: 18px;
@@ -63,7 +63,7 @@ a, #subtext {
     margin-left: 50px
 }
 
-#first-su {
+#first-su, #blue-box, #second-su {
     background-color: #3882F6;
     border-radius: 8px;
     padding: 8px 32px;
@@ -71,6 +71,7 @@ a, #subtext {
     font-weight: bold;
     border: none;
 }
+
 
 #info {
     display: flex;
@@ -123,5 +124,34 @@ a, #subtext {
     align-self: flex-end;
 }
 
+#call-to-action-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex: 1;
+}
 
+#blue-box {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 75px;
+}
+
+
+#second-su {
+    border-style: solid;
+    height: 42px;
+}
+
+#call-to-action #today {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+#signup-text {
+    font-weight: normal;
+    margin-top: 0px;
+}
 
