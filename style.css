@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto',sans-serif;
 }
 
-.top {
+#top {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -11,13 +11,13 @@ body {
     padding: 16px;
 }
 
-.header {
+#header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo {
+#logo {
     flex-shrink: 0;
     height: 80px;
     width: 80px;
@@ -31,39 +31,39 @@ ul {
     gap: 16px;
 }
 
-a, .subtext {
+a, #subtext {
     text-decoration: none;
     color:#E5E7EB;
     font-size: 18px;
      
 }
 
-.subtext {
+#subtext {
     margin-top: 0;
 }
-.main-title {
+#main-title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
 
-.below-header {
+#below-header {
     display: flex;
     margin-left: 360px
 }
 
-.b {
+#b {
     display: flex;
 }
 
-.robot {
+#robot {
     height: auto;
     width: 200px;
     margin-left: 50px
 }
 
-.first-su {
+#first-su {
     background-color: #3882F6;
     border-radius: 8px;
     padding: 8px 32px;
@@ -72,13 +72,13 @@ a, .subtext {
     border: none;
 }
 
-.info {
+#info {
     display: flex;
     flex-direction: column;
     margin-bottom: 36px;
 }
 
-.info p {
+#info p {
     display: flex;
     font-size: 36px;
     font-weight: 800; /* extra-bold */
@@ -86,7 +86,7 @@ a, .subtext {
     justify-content: center;
 }
 
-.four-images {
+#four-images {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -101,13 +101,13 @@ a, .subtext {
     height: 100px;
 }
 
-.testimonial-section {
+#testimonial-section {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
 }
 
-.testimonial {
+#testimonial {
     width: 800px;
     font-size: 36px;
     font-style: italic;
@@ -117,7 +117,7 @@ a, .subtext {
     margin-bottom: 0;
 }
 
-.customer-name {
+#customer-name {
     font-weight: bold;
     width: 800px;
     align-self: flex-end;
